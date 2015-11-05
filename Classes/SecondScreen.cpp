@@ -11,7 +11,7 @@ SecondScreen::SecondScreen()
 	auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
 	audio->preloadBackgroundMusic("intro.mp3");
 	
-	
+	// Sup, this is a change
 
 	// Create Event Listeners
 	CreateEventListeners();
@@ -46,6 +46,8 @@ void SecondScreen::CreateEventListeners()
 		}
 	});
 	/////////////////////////////////////////////////////////////////////
+
+	// This is another
 
 	/////////////////////// START BUTTON ////////////////////////////////////
 	auto startButton = _rootNode->getChildByName<cocos2d::ui::Button*>("btnStart");
